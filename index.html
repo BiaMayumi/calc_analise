@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <div class="calculadora">
+        <h1>Calculadora de Permutação, Arranjo e Combinação</h1>
+        <div class="entrada">
+            <label for="n">Elementos (n):</label>
+            <input type="number" id="n">
+        </div>
+        <div class="entrada">
+            <label for="p">Posições (p):</label>
+            <input type="number" id="p">
+        </div>
+        <div class="botoes">
+            <button onclick="calcular()">Calcular</button>
+        </div>
+        <div class="resultado-container">
+            <h2>Resultados</h2>
+            <div class="resultado">
+                <p>Permutação (nPr): <span id="permutacaoResult"></span></p>
+                <p>Arranjo (nAr): <span id="arranjoResult"></span></p>
+                <p>Combinação (nCr): <span id="combinacaoResult"></span></p>
+            </div>
+        </div>
+        <br>
+        <a href="explicacao.html" class="saiba-mais-button">Saiba mais</a>
+        <br>
+        <a href="desenvolvedor.html" class="saiba-mais-button">Desenvolvedor</a>
+
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
